@@ -1,119 +1,22 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>PEN 15</title>
-
-    <link rel="icon" href="/favicon.ico" sizes="32x32">
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-    <style>
-        span.pen {
-            display: inline-block;
-            font-size: 172px;
-            animation: spin 2s linear infinite;
-        }
-
-        @keyframes spin {
-            to {
-                transform: rotate(360deg);
-            }
-        }
-
-        blink {
-            animation: blink 1s steps(1) infinite;
-        }
-
-        @keyframes blink {
-            50% {
-                visibility: hidden;
-            }
-        }
-
-        #banner {
-            width: 468px;
-            height: 60px;
-            margin: 12px auto;
-            border: 3px ridge #C0C0C0;
-            background: #000000;
-            overflow: hidden;
-            text-align: center;
-            animation: bannerflash 1.2s steps(1) infinite;
-        }
-
-        @keyframes bannerflash {
-            0% {
-                background: #000000;
-            }
-
-            50% {
-                background: #400040;
-            }
-        }
-
-        #banner .line1 {
-            font-family: "Comic Sans MS", cursive;
-            font-size: 13px;
-            color: #00FF00;
-            padding-top: 6px;
-        }
-
-        #banner .line2 {
-            font-family: Impact, "Arial Black", sans-serif;
-            font-size: 26px;
-            letter-spacing: 2px;
-            background: linear-gradient(90deg, #FF0000, #FFFF00, #00FF00, #00FFFF, #FF00FF, #FF0000);
-            background-size: 200% 100%;
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-            animation: rainbow 3s linear infinite;
-        }
-
-        @keyframes rainbow {
-            to {
-                background-position: 200% 0;
-            }
-        }
-    </style>
-</head>
-
-<body bgcolor="#000080" text="#FFFF00" link="#00FFFF" vlink="#FF00FF">
-
-    <center>
-        <marquee behavior="alternate" scrollamount="6">
-            <font face="Times New Roman" size="7" color="#FF0000"><b>
-                    <blink>*</blink> PEN 15 <blink>*</blink>
-                </b></font>
-        </marquee>
-
-        <hr width="80%" size="4" noshade color="#C0C0C0">
-        <a href="https://umlaut.fyi" target="_blank">
-            <div id="banner">
-                <div class="line1">
-                    <blink>&#9733;</blink> THIS SITE IS BROUGHT TO YOU BY <blink>&#9733;</blink>
-                </div>
-                <div class="line2">UMLAUT.FYI</div>
-            </div>
-        </a>
-    </center>
-
-    <span class="pen">&#x270E;</span>
-    <span class="pen">&#x270E;</span>
-    <span class="pen">&#x270E;</span>
-    <span class="pen">&#x270E;</span>
-    <span class="pen">&#x270E;</span>
-    <span class="pen">&#x270E;</span>
-    <span class="pen">&#x270E;</span>
-    <span class="pen">&#x270E;</span>
-    <span class="pen">&#x270E;</span>
-    <span class="pen">&#x270E;</span>
-    <span class="pen">&#x270E;</span>
-    <span class="pen">&#x270E;</span>
-    <span class="pen">&#x270E;</span>
-    <span class="pen">&#x270E;</span>
-    <span class="pen">&#x270E;</span>
-
-</body>
-
+    <meta name="description" content="Fifteen (15) pens. In 3D. You're welcome." />
+    <meta property="og:title" content="PEN 15" />
+    <meta property="og:description" content="Fifteen (15) pens. In 3D. You're welcome." />
+    <meta name="theme-color" content="#000080" />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Shade&family=Press+Start+2P&display=swap" rel="stylesheet" />
+    <script type="module" crossorigin src="/assets/index-Be8DuqRY.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CknCHJkL.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
